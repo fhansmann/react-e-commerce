@@ -15,9 +15,9 @@ html, body {
 main.photos {
     padding: 10px;
     display: grid;
-    grid-gap: 2px;
-    grid-auto-rows: 100px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 5px;
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-flow: dense;
 }
 
@@ -135,8 +135,3 @@ a {
 a:visited { color: var(--light-blue); }
 a:hover { color: var(--light-blue); }
 a:active { color: var(--light-blue); }
-
-.ri-heart-line {
-    color: red;
-    border: 3px red;
-}
